@@ -1,0 +1,46 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Book{bain1992introduction,
+  Title                    = {Introduction to probability and mathematical statistics},
+  Author                   = {Bain, Lee J and Engelhardt, Max},
+  Publisher                = {Duxbury Press Belmont, CA},
+  Year                     = {1992},
+  Volume                   = {4}
+}
+
+@Article{baldwin1956optimum,
+  Title                    = {The optimum strategy in blackjack},
+  Author                   = {Baldwin, Roger R and Cantey, Wilbert E and Maisel, Herbert and McDermott, James P},
+  Journal                  = {Journal of The American Statistical Association},
+  Year                     = {1956},
+  Number                   = {275},
+  Pages                    = {429--439},
+  Volume                   = {51},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@InProceedings{kendall2003evolution,
+  Title                    = {The evolution of blackjack strategies},
+  Author                   = {Kendall, Graham and Smith, Craig},
+  Booktitle                = {Evolutionary Computation, 2003. CEC'03. The 2003 Congress on},
+  Year                     = {2003},
+  Organization             = {IEEE},
+  Pages                    = {2474--2481},
+  Volume                   = {4}
+}
+
+@Article{thorp1961favorable,
+  Title                    = {A favorable strategy for twenty-one},
+  Author                   = {Thorp, Edward},
+  Journal                  = {Proceedings of the National Academy of Sciences of the United States of America},
+  Year                     = {1961},
+  Number                   = {1},
+  Pages                    = {110},
+  Volume                   = {47},
+
+  Publisher                = {National Academy of Sciences}
+}
+
