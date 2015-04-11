@@ -1,2 +1,6 @@
 # Onderzoekstechnieken
-Onderzoekstechnieken Project Blackjack
+## Project Blackjack
+
+
+Simulator forked from:
+https://github.com/philihp/Blackjack
