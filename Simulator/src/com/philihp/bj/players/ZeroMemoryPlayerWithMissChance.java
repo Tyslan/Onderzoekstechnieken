@@ -144,7 +144,8 @@ public class ZeroMemoryPlayerWithMissChance extends ZeroMemoryPlayer {
         Response correctResponse = getCorrectResponse(table, playerShowCard, dealerShowCard);
         List<Response> possibleWrongResponses = new ArrayList<>();
 
-        Delta deltas[] = {new Delta(0, -1), new Delta(0, 1), new Delta(-1, 0), new Delta(1, 0)};
+        Delta deltas[] = {new Delta(0, -1), new Delta(0, 1), new Delta(-1, 0), new Delta(1, 0), 
+            new Delta(-1,-1), new Delta(-1,1), new Delta(1,-1), new Delta(1,1)};
 
         int maxRowIndex = table.length;
         int maxColIndex = table[1].length;
