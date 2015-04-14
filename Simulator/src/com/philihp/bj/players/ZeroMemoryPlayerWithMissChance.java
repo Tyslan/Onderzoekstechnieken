@@ -3,8 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.philihp.bj;
+package com.philihp.bj.players;
 
+import com.philihp.bj.Delta;
+import com.philihp.bj.Hand;
+import com.philihp.bj.Response;
 import static com.philihp.bj.Response.DH;
 import static com.philihp.bj.Response.DS;
 import static com.philihp.bj.Response.H;
@@ -20,7 +23,6 @@ import java.util.List;
  * @author Lorenz
  */
 public class ZeroMemoryPlayerWithMissChance extends ZeroMemoryPlayer {
-
     private static final SecureRandom random = new SecureRandom();
     private double chanceWrongResponse;
     private int numberOfMistakes;

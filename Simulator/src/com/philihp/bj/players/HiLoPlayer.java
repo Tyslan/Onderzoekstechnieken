@@ -1,5 +1,8 @@
-package com.philihp.bj;
+package com.philihp.bj.players;
 
+import com.philihp.bj.Card;
+import com.philihp.bj.Hand;
+import com.philihp.bj.Response;
 import static com.philihp.bj.Card.*;
 import static com.philihp.bj.Response.*;
 

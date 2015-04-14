@@ -1,5 +1,9 @@
-package com.philihp.bj;
+package com.philihp.bj.players;
 
+import com.philihp.bj.Blackjack;
+import com.philihp.bj.Card;
+import com.philihp.bj.Hand;
+import com.philihp.bj.Response;
 import static com.philihp.bj.Response.*;
 
 public class ZeroMemoryPlayer implements Player {
@@ -101,5 +105,4 @@ public class ZeroMemoryPlayer implements Player {
     public int getNumberOfMistakes() {
         return 0;
     }
-
 }
