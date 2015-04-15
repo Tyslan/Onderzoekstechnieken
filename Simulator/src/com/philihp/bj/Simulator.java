@@ -11,6 +11,7 @@ import com.philihp.bj.players.Player;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.security.SecureRandom;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +24,7 @@ public class Simulator {
     /**
      * Number of simulations that are runned
      */
-    public static int NUMBER_OF_SIMULATIONS = 100000;
+    public static int NUMBER_OF_SIMULATIONS = 10;
 
     /**
      * Number of hands that are played in a simulation
@@ -149,8 +150,8 @@ public class Simulator {
             System.out.println("Averages mistakes: " + avgMistakes);
 
             System.out.println("Runtime: " + ((float) (System.nanoTime() - startTime) / 1000000000f) + " seconds");
-
-            String path = "F:\\result " + NUMBER_OF_SIMULATIONS + "simulations " + mischances[i] + "Mischance.csv";
+            DecimalFormat formatter = new DecimalFormat("0.000");
+            String path = "C:\\result " + NUMBER_OF_SIMULATIONS + "simulations " + formatter.format(mischances[i]) + "Mischance.csv";
             writeCSV(path, resultList);
         }
     }
