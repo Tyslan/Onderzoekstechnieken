@@ -359,6 +359,7 @@
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
+
 \author{\IEEEauthorblockN{Boyan Bosschem}
 \IEEEauthorblockA{Hogeschool Gent\\
 Bedrijf en Organisatie}
@@ -408,7 +409,7 @@ Bedrijf en Organisatie}}
 
 \begin{abstract}
 %\boldmath
-Bij het gokspel blackjack zijn vandaag reeds technieken gekend die de spelers een voordeel geven op het casino. Echter wordt vandaag nog steeds blackjack bij casino's gespeeld. Hoe komt het dat ondanks de gekende technieken het spel toch rendabel blijkt voor casino's?
+Bij het gokspel blackjack zijn er technieken gekend die de spelers een voordeel geven op het casino. Echter wordt vandaag nog steeds blackjack bij casino's gespeeld. Hoe komt het dat ondanks de gekende technieken het spel toch rendabel blijkt voor casino's?
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
 % This preserves the distinction between vectors and scalars. However,
@@ -436,32 +437,43 @@ Bij het gokspel blackjack zijn vandaag reeds technieken gekend die de spelers ee
 
 \section{Introductie}
 % no \IEEEPARstart
-Blackjack is een gokspel dat met speelkaarten gespeeld wordt waarbij een of meerdere spelers tegen het huis (een dealer) spelen. Het doel van het spel is een zo hoog mogelijke hand waarbij de som van de kaarten maximaal 21 is te behalen. Het spel kent veel variaties waarbij verschillende regels van toepassing zijn en er zijn reeds vele werken geschreven die beschrijven hoe je als speler het meest kans op winnen hebt. Zo zou bij de optimale uitvoering de speler zelfs een voordeel kunnen hebben op het huis. Maar als dit het geval is, hoe blijft het spel dan toch rendabel voor casino's?
+Blackjack is een gokspel dat met speelkaarten gespeeld wordt waarbij een of meerdere spelers tegen het huis (een dealer) spelen. Het doel van het spel is een hogere hand dan de dealer te behalen die niet hoger dan 21. Het spel kent veel variaties waarbij verschillende regels van toepassing zijn. De optimale strategie\"en voor verscheidene variaties werden reeds onderzocht en gedocumenteerd. Zo zou bij de optimale uitvoering de speler zelfs een voordeel kunnen hebben op het huis. Maar als dit het geval is, hoe blijft het spel dan toch rendabel voor casino's?
 
 \subsection{De regels van het spel}
 
 \subsubsection{Basis}
-Blackjack wordt gespeeld door een of meerdere spelers tegen het huis (een dealer). Het doel van het spel is een zo hoog mogelijke hand te behalen waarbij de som van de kaarten maximaal 21 is. De waarde van kaarten die geen cijfer hebben (boer, vrouw en heer) is 10 en een aas kan zowel als 1 of als 10 dienen. 
+Blackjack wordt gespeeld door een of meerdere spelers tegen het huis (een dealer). Het doel van het spel is een hogere hand dan de dealer te behalen die niet hoger is dan 21. De waarde van elke kaart komt overeen met zijn beeltenis. Kaarten die geen getal als beeltenis hebben, hebben een waarde van tien. De aas kan als waarde zowel een als tien aannemen. De dealer geeft elke speler twee kaarten met de beeltenis naar boven en neemt zelf twee kaarten waarvan slechts een zichtbaar is voor de spelers. Vervolgens mag elke speler kaarten bijvragen tot men tevreden is met de hand of verloren heeft. Eenmaal alle spelers klaar zijn is de dealer aan zet. Hij zal zijn tweede kaart tonen en altijd kaarten bijnemen tot zijn hand 17 of meer is. Indien de dealer eindigt met een hand hoger dan 21 winnen alle spelers die nog niet verloren zijn. Anders winnen alle spelers die een hogere hand dan de dealer hebben. Bij gelijkspel behoudt de speler zijn inzet. De hoogste hand is blackjack oftewel 21 met de eerste twee kaarten. Deze is wint dus van een hand ter waarde van 21 met meer dan 2 kaarten.
 
-\subsubsection{Regels die variëren}
-Subsubsection text here.
+\subsubsection{Verdubbelen}
+Spelers krijgen vaak de mogelijkheid om hun inzet te verdubbelen wanneer hun eerste twee kaarten tesamen een waarde van negen, tien of elf hebben. Hierna krijgt de speler slechts één kaart meer. Sommige casino's laten toe om te verdubbelen ongeacht de waarde van de eerste twee kaarten.
+
+\subsubsection{Splitsen}
+Indien de eerste twee kaarten van een speler dezelfde waarde of beeltenis hebben (afhankelijk van het casino), dan mag de speler zijn kaarten splitsen. Hierbij speelt de speler verder met twee handen en moet dus nog eens dezelfde inzet bij de nieuwe hand inzetten. Dit mag meermaals gedaan worden zolang de gedeelde kaart dezelfde waarde of beeltenis heeft. Gesplitste handen worden niet als blackjack beschouwd en hebben dus maximaal een waarde van 21.
+
+\subsubsection{Overgeven}
+Overgeven is de mogelijkheid om de helft van je inzet op te geven opdat je de andere helft mag behouden. Dit is meestal enkel mogelijk na de eerste twee kaarten
+
+\subsubsection{Verzekeren}
+Indien de zichtbare kaart van de dealer een aas is dan heeft de speler de mogelijkheid om zich te verzekeren. Hierbij zet de speler nog eens de helft van zijn oorspronkelijke inzet in voor het geval de dealer blackjack heeft. Indien de dealer blackjack heeft krijgt de speler dan evenveel terug als zijn totale inzet. Indien niet verliest hij de verzekering en wordt het spel verder afgewerkt zoals bij normaal verloop.
 
 \section{Werking}
 \subsection{Literatuur}
-In de literatuur wordt vaak verwezen naar optimale strategieën.
+NOG IN TE VULLEN
+REFEREREN NAAR OPTIMALE STRATEGIE
+REFEREREN NAAR CARD COUNTING
 \cite{thorp1961favorable}
 
 \subsection{Onderzoeksopzet}
-In deze paper willen we nagaan wat het effect is van fouten te maken tegen een bepaalde strategie.
+De opzet van ons onderzoek is nagaan in hoeverre het voordeel van het huis verandert wanneer de speler meer of minder fouten maakt. We willen dus het spelgedrag van zowel ervaren spelers als spelers met beperkte kennis van het spel simuleren om daar vervolgens conclusies uit te kunnen trekken.
 
-\subsection{Experiment opzetten}
-Om het onderzoeksopzet te simuleren werd gebruik gemaakt van een simulator waarbij een kans op missen en een strategie kon worden ingegeven.
-Deze kans op missen komt echter alleen voor in het grensgebied van de gekozen strategie.
+Zoals eerder vermeld bestaan er veel varianten van blackjack. In ons onderzoek gaan we uit van \'e\'en populaire versie. Ook maken we uitsluitend gebruik van \textit{basic strategy}. Ervaren spelers kunnen ook aan \textit{card counting} doen oftewel kaarten tellen. Indien men kaarten telt kan men zelfs voordeel halen op het huis. REFERENTIE HIER AUB Hoewel dit niet illegaal is, wordt dit bij casino's niet in dank afgenomen en probeert men kaarttellers buiten te houden.
 
-Vervolgens werden voor een bepaalde kansen op missen telkens 100 000 simulaties gerunt die bestonden uit 100 handen.
-Hieruit werden dan later gemiddeldes en afwijkingen gehaald.
+\subsection{Experiment }
+Om de onderzoeksopzet te simuleren wordt gebruik gemaakt van een simulator waarbij de ideale strategie en de gewenste kans op het maken van fouten kan worden ingegeven. Om normaal spelgedrag te simuleren worden er enkel fouten gemaakt bij grenswaarden. Men zal bijvoorbeeld nooit passen bij een hand lager dan acht of een kaart vragen bij een hand hoger dan 17.
 
-\subsection{Data verzamelen}
+Vervolgens worden voor verschillende kansen op fouten telkens 100.000 simulaties van elk 100 handen uitgevoerd. Uit de verzamelde gegevens worden het gemiddelde procentueel voordeel van het huis en de standaardafwijking berekend.
+
+\subsection{Data}
 
 \subsection{Analyse}
 In tabel~\ref{tab:gemiddeldesMiskansen} kan telkens de gemiddelde house edge gevonden worden in functie van de kans op een fout in het grens gebied.
@@ -494,7 +506,7 @@ Kans op fout & $\mu$ & $\sigma$\\
 100\% & 34,096 & 26,9239\\
 \hline
 \end{tabular}
-\caption{Gemiddeldes HouseEdge in functie van de kans op een fout}
+\caption{Gemiddeldes voordeel van het huis in functie van de kans op fouten}
 \label{tab:gemiddeldesMiskansen}
 \end{table}
 
@@ -582,7 +594,7 @@ Kans op fout & $\mu$ & $\sigma$\\
 
 
 
-\section{Conclusion}
+\section{Conclusie}
 The conclusion goes here.
 
 
@@ -592,10 +604,10 @@ The conclusion goes here.
 
 
 % use section* for acknowledgement
-\section*{Acknowledgment}
+\section*{Erkenning}
 
-
-The authors would like to thank...
+NOG IN TE VULLEN OF TE VERWIJDEREN
+We willen graag onze mama's voor hun niet-aflatende steun en oneindig geduld bedanken. Maar ook onze papa's voor de corrigerende tik wanneer nodig.
 
 
 
