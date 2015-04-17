@@ -342,7 +342,8 @@
 % There should be no need to do such things with IEEEtran.cls V1.6 and later.
 % (Unless specifically asked to do so by the journal or conference you plan
 % to submit to, of course. )
-
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -439,13 +440,63 @@ Blackjack is een gokspel dat met speelkaarten gespeeld wordt waarbij een of meer
 
 \subsection{De regels van het spel}
 
-
 \subsubsection{Basis}
 Blackjack wordt gespeeld door een of meerdere spelers tegen het huis (een dealer). Het doel van het spel is een zo hoog mogelijke hand te behalen waarbij de som van de kaarten maximaal 21 is. De waarde van kaarten die geen cijfer hebben (boer, vrouw en heer) is 10 en een aas kan zowel als 1 of als 10 dienen. 
 
-\subsubsection{Regels die vari\"eren}
+\subsubsection{Regels die variëren}
 Subsubsection text here.
 
+\section{Werking}
+\subsection{Literatuur}
+In de literatuur wordt vaak verwezen naar optimale strategieën.
+\cite{thorp1961favorable}
+
+\subsection{Onderzoeksopzet}
+In deze paper willen we nagaan wat het effect is van fouten te maken tegen een bepaalde strategie.
+
+\subsection{Experiment opzetten}
+Om het onderzoeksopzet te simuleren werd gebruik gemaakt van een simulator waarbij een kans op missen en een strategie kon worden ingegeven.
+Deze kans op missen komt echter alleen voor in het grensgebied van de gekozen strategie.
+
+Vervolgens werden voor een bepaalde kansen op missen telkens 100 000 simulaties gerunt die bestonden uit 100 handen.
+Hieruit werden dan later gemiddeldes en afwijkingen gehaald.
+
+\subsection{Data verzamelen}
+
+\subsection{Analyse}
+In tabel~\ref{tab:gemiddeldesMiskansen} kan telkens de gemiddelde house edge gevonden worden in functie van de kans op een fout in het grens gebied.
+
+\begin{table}
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+Kans op fout & $\mu$ & $\sigma$\\
+\hline
+0\% & 3,090 & 22,8915\\
+1\% & 3,544 & 23,0405\\
+2\% & 3,708 & 23,0394\\
+3\% & 3,818 & 23,0014\\
+5\% & 4,322 & 23,0957\\
+7,5\% & 5,006 & 23,1455\\
+10\% & 5,455 & 23,1043\\
+12,5\% & 6,187 & 23,3516\\
+15\% & 6,805 & 23,4473\\
+17,5\% & 7,533 & 23,4688\\
+20\% & 8,099 & 23,5296\\
+25\% & 9,397 & 23,6362\\
+30\% & 10,716 & 23,6441\\
+40\% & 13,606 & 24,1438\\
+50\% & 16,522 & 24,4366\\
+60\% & 19,412 & 24,8674\\
+70\% & 22,845 & 25,2001\\
+80\% & 26,220 & 25,8522\\
+90\% & 29,939 & 26,2453\\
+100\% & 34,096 & 26,9239\\
+\hline
+\end{tabular}
+\caption{Gemiddeldes HouseEdge in functie van de kans op een fout}
+\label{tab:gemiddeldesMiskansen}
+\end{table}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -569,17 +620,21 @@ The authors would like to thank...
 % argument is your BibTeX string definitions and bibliography database(s)
 %\bibliography{IEEEabrv,../bib/paper}
 %
+\begin{thebibliography}{1}
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,Verslag.bib}
+\end{thebibliography}
+
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
-
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
-
+%\begin{thebibliography}{1}
+%
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+%
+%\end{thebibliography}
 
 
 
