@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.17)  18 APR 2015 16:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  18 APR 2015 17:17
 entering extended mode
 **Verslag.tex
 
-("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
-nderzoekstechnieken\Latex bestand\Verslag.tex"
+("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
+ag.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,8 +15,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-(C:\Users\Pieter-Jan\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
+(C:\Users\Lorenz\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -339,72 +338,152 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Pieter-Jan\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+(C:\Users\Lorenz\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count94
 )
-("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
-nderzoekstechnieken\Latex bestand\Verslag.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 352.
-LaTeX Font Info:    ... okay on input line 352.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count96
+\float@exts=\toks18
+\float@box=\box28
+\@float@everytoks=\toks19
+\@floatcapt=\box29
+)
+("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
+ag.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 354.
+LaTeX Font Info:    ... okay on input line 354.
 
 -- Lines per column: 56 (exact).
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--471
+(C:\Users\Lorenz\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen127
+\scratchbox=\box30
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen128
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks21
+)
+Underfull \hbox (badness 10000) in paragraph at lines 467--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--471
+Underfull \hbox (badness 10000) in paragraph at lines 467--473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--471
+Underfull \hbox (badness 10000) in paragraph at lines 467--473
 
  []
 
-
-Package natbib Warning: Citation `thorp1961favorable' on page 1 undefined on in
-put line 472.
-
-[1{C:/Users/Pieter-Jan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Lorenz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 3312) in paragraph at lines 480--481
+Underfull \hbox (badness 3312) in paragraph at lines 482--483
 []\OT1/ptm/m/n/10 Om de on-der-zoek-sopzet te simuleren wordt ge-bruik
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 490--491
+Underfull \hbox (badness 4013) in paragraph at lines 492--493
  \OT1/ptm/m/it/10 c) Overgeven: [][] \OT1/ptm/m/n/10 De speler kan zich ten all
 e ti-jde
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 513.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 513.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 513.
-No file Verslag.bbl.
+<img/grafiek.jpg, id=9, 701.62125pt x 567.11874pt>
+File: img/grafiek.jpg Graphic file (type jpg)
+ <use img/grafiek.jpg>
+Package pdftex.def Info: img/grafiek.jpg used on input line 507.
+(pdftex.def)             Requested size: 252.0pt x 203.68665pt.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 668.
+Underfull \vbox (badness 6825) has occurred while \output is active []
 
+
+<img/ThorpeNormal.png, id=11, 457.10776pt x 409.53pt>
+File: img/ThorpeNormal.png Graphic file (type png)
+
+<use img/ThorpeNormal.png>
+Package pdftex.def Info: img/ThorpeNormal.png used on input line 515.
+(pdftex.def)             Requested size: 252.0pt x 225.77335pt.
+
+<img/doubleDown.png, id=12, 455.90324pt x 175.857pt>
+File: img/doubleDown.png Graphic file (type png)
+ <use img/doubleDown.png>
+Package pdftex.def Info: img/doubleDown.png used on input line 520.
+(pdftex.def)             Requested size: 252.0pt x 97.20465pt.
+
+<img/SplittingRules.png, id=13, 454.69875pt x 351.714pt>
+File: img/SplittingRules.png Graphic file (type png)
+
+<use img/SplittingRules.png>
+Package pdftex.def Info: img/SplittingRules.png used on input line 525.
+(pdftex.def)             Requested size: 252.0pt x 194.92451pt.
+ [2 <F:/Repositories/Onderzoekstechnieken/Onderzoekstechnieken/Latex bestand/im
+g/grafiek.jpg> <F:/Repositories/Onderzoekstechnieken/Onderzoekstechnieken/Latex
+ bestand/img/ThorpeNormal.png> <F:/Repositories/Onderzoekstechnieken/Onderzoeks
+technieken/Latex bestand/img/doubleDown.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 535.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 535.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 535.
+
+("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
+ag.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -416,29 +495,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-
-Package natbib Warning: There were undefined citations.
-
-[2]
-("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
-nderzoekstechnieken\Latex bestand\Verslag.aux") ) 
+[3 <F:/Repositories/Onderzoekstechnieken/Onderzoekstechnieken/Latex bestand/img
+/SplittingRules.png>]
+("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
+ag.aux") ) 
 Here is how much of TeX's memory you used:
- 1584 strings out of 493921
- 25628 string characters out of 3144861
- 85638 words of memory out of 3000000
- 4918 multiletter control sequences out of 15000+200000
- 37661 words of font info for 71 fonts, out of 3000000 for 9000
+ 2587 strings out of 493921
+ 39612 string characters out of 3144873
+ 100201 words of memory out of 3000000
+ 5878 multiletter control sequences out of 15000+200000
+ 36554 words of font info for 70 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 26i,8n,19p,1124b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX
- 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times
-/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Verslag.pdf (2 pages, 70646 bytes).
+ 27i,8n,28p,1124b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on Verslag.pdf (3 pages, 171517 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
