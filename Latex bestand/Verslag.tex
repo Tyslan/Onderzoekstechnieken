@@ -353,7 +353,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Wie wint bij blackjack?}
+\title{Wie wint bij blackjack? GROEPNR?}
 
 
 % author names and affiliations
@@ -437,7 +437,8 @@ Bij het gokspel blackjack zijn er technieken gekend die de spelers een voordeel 
 
 \section{Introductie}
 % no \IEEEPARstart
-Blackjack is een gokspel dat met speelkaarten gespeeld wordt waarbij een of meerdere spelers tegen het huis (een dealer) spelen. Het doel van het spel is een hogere hand dan de dealer te behalen die niet hoger dan 21. Het spel kent veel variaties waarbij verschillende regels van toepassing zijn. De optimale strategie\"en voor verscheidene variaties werden reeds onderzocht en gedocumenteerd. Zo zou bij de optimale uitvoering de speler zelfs een voordeel kunnen hebben op het huis. Maar als dit het geval is, hoe blijft het spel dan toch rendabel voor casino's?
+Blackjack is een gokspel dat met speelkaarten gespeeld wordt waarbij een of meerdere spelers tegen het huis (een dealer) spelen. Het doel van het spel is een hogere hand dan de dealer te behalen maar die niet hoger is dan 21. Het spel kent veel variaties waarbij verschillende regels van toepassing zijn. De optimale strategie\"en voor verscheidene variaties zijn reeds onderzocht en gedocumenteerd. Zo kan een speler gebruik makende van de beste strategie zelfs voordeel halen op het huis. Maar als dit het geval is, hoe blijft het spel dan toch rendabel voor casino's?
+\\In ons onderzoek maken we gebruik van een populaire variatie van het spel en de ideale strategie voor die versie. Als doelgroep gaan we uit van de gemiddelde speler. Dit wil zeggen iemand die kennis van het spel heeft maar wel fouten kan maken. Hoeveel fouten de gemiddelde speler maakt weten we niet en dus laten we dit varie\"eren.
 
 \subsection{De regels van het spel}
 
@@ -456,27 +457,56 @@ Overgeven is de mogelijkheid om de helft van je inzet op te geven opdat je de an
 \subsubsection{Verzekeren}
 Indien de zichtbare kaart van de dealer een aas is dan heeft de speler de mogelijkheid om zich te verzekeren. Hierbij zet de speler nog eens de helft van zijn oorspronkelijke inzet in voor het geval de dealer blackjack heeft. Indien de dealer blackjack heeft krijgt de speler dan evenveel terug als zijn totale inzet. Indien niet verliest hij de verzekering en wordt het spel verder afgewerkt zoals bij normaal verloop.
 
+\subsubsection{Zachte hand}
+Ter verduidelijking vermelden we ook dat een hand die een aas bevat en dus twee waarden kan aannemen ook wel een zachte hand genoemd wordt. Dit in tegenstelling tot een harde hand die slechts \'e\'en waarde kan aannemen.
+
 \section{Werking}
 \subsection{Literatuur}
 NOG IN TE VULLEN
 REFEREREN NAAR OPTIMALE STRATEGIE
 REFEREREN NAAR CARD COUNTING
+\\
+\\
+\\
+
 \cite{thorp1961favorable}
 
 \subsection{Onderzoeksopzet}
 De opzet van ons onderzoek is nagaan in hoeverre het voordeel van het huis verandert wanneer de speler meer of minder fouten maakt. We willen dus het spelgedrag van zowel ervaren spelers als spelers met beperkte kennis van het spel simuleren om daar vervolgens conclusies uit te kunnen trekken.
 
-Zoals eerder vermeld bestaan er veel varianten van blackjack. In ons onderzoek gaan we uit van \'e\'en populaire versie. Ook maken we uitsluitend gebruik van \textit{basic strategy}. Ervaren spelers kunnen ook aan \textit{card counting} doen oftewel kaarten tellen. Indien men kaarten telt kan men zelfs voordeel halen op het huis. REFERENTIE HIER AUB Hoewel dit niet illegaal is, wordt dit bij casino's niet in dank afgenomen en probeert men kaarttellers buiten te houden.
+Zoals eerder vermeld bestaan er veel varianten van blackjack en gaan we in ons onderzoek uit van \'e\'en populaire versie. Ook maken we uitsluitend gebruik van \textit{basic strategy}. Ervaren spelers kunnen ook aan \textit{card counting} doen oftewel kaarten tellen. Indien men kaarten telt kan men zelfs voordeel halen op het huis. REFERENTIE CARDCOUNTING HIER AUB Hoewel dit niet illegaal is, wordt dit bij casino's niet in dank afgenomen en probeert men kaarttellers buiten te houden. In ons onderzoek laten we kaartentellen achterwege gezien we uitgaan van spelers die nog niet foutloos basic strategy kunnen spelen.
 
 \subsection{Experiment }
-Om de onderzoeksopzet te simuleren wordt gebruik gemaakt van een simulator waarbij de ideale strategie en de gewenste kans op het maken van fouten kan worden ingegeven. Om normaal spelgedrag te simuleren worden er enkel fouten gemaakt bij grenswaarden. Men zal bijvoorbeeld nooit passen bij een hand lager dan acht of een kaart vragen bij een hand hoger dan 17.
+Om de onderzoeksopzet te simuleren wordt gebruik gemaakt van een blackjack simulator waarbij de ideale strategie en de gewenste kans op het maken van fouten kan worden ingegeven. Om normaal spelgedrag te simuleren worden er enkel fouten gemaakt bij grenswaarden. Men zal bijvoorbeeld nooit passen bij een hand lager dan acht of een kaart vragen bij een hand hoger dan 17.
 
-Vervolgens worden voor verschillende kansen op fouten telkens 100.000 simulaties van elk 100 handen uitgevoerd. Uit de verzamelde gegevens worden het gemiddelde procentueel voordeel van het huis en de standaardafwijking berekend.
+Vervolgens worden voor verschillende kansen op fouten telkens 100.000 simulaties van elk 100 handen uitgevoerd. Uit de verzamelde gegevens worden het gemiddeld procentueel voordeel van het huis en de standaardafwijking berekend.
+
+\subsubsection*{Gebruikte regels}
+\paragraph{Verdubbelen}
+De speler mag zijn inzet enkel verdubbelen bij de eerste twee kaarten of na een split.
+\paragraph{Splitsen}
+De speler mag tot maximaal vier keer splitsen zolang de waarde van elke kaart in zijn hand gelijk is.
+\paragraph{Overgeven}
+De speler kan zich ten alle tijde overgeven.
+\paragraph{Verzekeren}
+We maken geen gebruik van verzekeren in onze simulatie. Verzekeren is een optie die steeds in het nadeel van de speler is en dus best achterwege wordt gelaten. REFERENTIE NOOIT VERZEKEREN HIER AUB
+\paragraph{Dealer}
+De dealer zal altijd kaarten bijnemen tot zijn hand 17 of hoger is. Dit met uitzondering van een zachte 17 waarbij de dealer nog een kaart bijneemt.
+\paragraph{Payout}
+De payout is 3 : 2.
+\paragraph{Inzet}
+De minimale inzet bedraagt vijf eenheden. Spelers die kaarten tellen kunnen hun voordeel vergroten door meer in te zetten wanneer de kaarten meer kans hebben om in hun voordeel te spelen. Gezien we de kaarten niet tellen zetten we in onze simulatie steeds de minimale inzet in.  HILO REFERENTIE HIER
+
 
 \subsection{Data}
+In tabel~\ref{tab:gemiddeldesMiskansen} staat het gemiddelde voordeel van het huis in functie van de kans op fouten in het grensgebied.
+
+GRAFIEK DIE BIJ DE TABEL HOORT IN TE VULLEN
+
+IDEALE STRATEGIE KAART IN TE VULLEN
 
 \subsection{Analyse}
-In tabel~\ref{tab:gemiddeldesMiskansen} kan telkens de gemiddelde house edge gevonden worden in functie van de kans op een fout in het grens gebied.
+Uit de bekomen gegevens kunnen we het volgende afleiden. Ten eerste blijkt dat bij foutloos \textit{basic strategy} het huis altijd voordeel heeft op de speler. Dit lag binnen de verwachtingen REFERENTIE CARD COUNTING HIER AUB. Een speler zal dus om op lange termijn winst te kunnen maken ook moeten kunnen kaarten tellen. Ten tweede blijkt dat naarmate een speler meer fouten maakt, het voordeel van het huis lineair stijgt.
 
 \begin{table}
 \centering
