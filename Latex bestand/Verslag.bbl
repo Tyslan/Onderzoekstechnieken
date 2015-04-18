@@ -26,6 +26,11 @@ E.~Thorp, ``A favorable strategy for twenty-one,'' \emph{Proceedings of the
   National Academy of Sciences of the United States of America}, vol.~47,
   no.~1, p. 110, 1961.
 
+\bibitem{baldwin1956optimum}
+R.~R. Baldwin, W.~E. Cantey, H.~Maisel, and J.~P. McDermott, ``The optimum
+  strategy in blackjack,'' \emph{Journal of The American Statistical
+  Association}, vol.~51, no. 275, pp. 429--439, 1956.
+
 \bibitem{fogel2004evolving}
 D.~B. Fogel, ``Evolving strategies in blackjack,'' in \emph{Evolutionary
   Computation, 2004. CEC2004. Congress on}, vol.~2.\hskip 1em plus 0.5em minus
@@ -35,11 +40,6 @@ D.~B. Fogel, ``Evolving strategies in blackjack,'' in \emph{Evolutionary
 B.~B. Van Der~Genugten, ``Blackjack in holland casino's: basic, optimal and
   winning strategies,'' \emph{Statistica Neerlandica}, vol.~51, no.~3, pp.
   318--344, 1997.
-
-\bibitem{baldwin1956optimum}
-R.~R. Baldwin, W.~E. Cantey, H.~Maisel, and J.~P. McDermott, ``The optimum
-  strategy in blackjack,'' \emph{Journal of The American Statistical
-  Association}, vol.~51, no. 275, pp. 429--439, 1956.
 
 \bibitem{bain1992introduction}
 L.~J. Bain and M.~Engelhardt, \emph{Introduction to probability and
