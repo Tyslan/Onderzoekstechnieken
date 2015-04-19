@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  19 APR 2015 13:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.17)  19 APR 2015 16:40
 entering extended mode
 **Verslag.tex
 
-("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
-ag.tex"
+("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
+nderzoekstechnieken\Latex bestand\Verslag.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,7 +15,8 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Lorenz\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
+
+(C:\Users\Pieter-Jan\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -338,7 +339,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Lorenz\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+(C:\Users\Pieter-Jan\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -385,23 +386,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box29
 )
-("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
-ag.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 354.
-LaTeX Font Info:    ... okay on input line 354.
+("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
+nderzoekstechnieken\Latex bestand\Verslag.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 -- Lines per column: 56 (exact).
-(C:\Users\Lorenz\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(C:\Users\Pieter-Jan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen127
@@ -414,61 +415,59 @@ LaTeX Font Info:    ... okay on input line 354.
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks21
-) [1{C:/Users/Lorenz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+) [1{C:/Users/Pieter-Jan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 3312) in paragraph at lines 476--477
-[]\OT1/ptm/m/n/10 Om de on-der-zoek-sopzet te simuleren wordt ge-bruik
+Underfull \hbox (badness 2726) in paragraph at lines 140--141
+[]\OT1/ptm/m/n/10 Elke op-tie die grenst aan een an-dere op-tie is een
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 486--487
+Underfull \hbox (badness 4013) in paragraph at lines 152--153
  \OT1/ptm/m/it/10 c) Overgeven: [][] \OT1/ptm/m/n/10 De speler kan zich ten all
 e ti-jde
  []
 
-<img/grafiek.jpg, id=9, 701.62125pt x 567.11874pt>
-File: img/grafiek.jpg Graphic file (type jpg)
- <use img/grafiek.jpg>
-Package pdftex.def Info: img/grafiek.jpg used on input line 501.
-(pdftex.def)             Requested size: 252.0pt x 203.68665pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<img/ThorpeNormal.png, id=11, 457.10776pt x 409.53pt>
+<img/ThorpeNormal.png, id=9, 457.10776pt x 409.53pt>
 File: img/ThorpeNormal.png Graphic file (type png)
 
 <use img/ThorpeNormal.png>
-Package pdftex.def Info: img/ThorpeNormal.png used on input line 509.
+Package pdftex.def Info: img/ThorpeNormal.png used on input line 167.
 (pdftex.def)             Requested size: 252.0pt x 225.77335pt.
 
-<img/doubleDown.png, id=12, 455.90324pt x 175.857pt>
+<img/doubleDown.png, id=11, 455.90324pt x 175.857pt>
 File: img/doubleDown.png Graphic file (type png)
  <use img/doubleDown.png>
-Package pdftex.def Info: img/doubleDown.png used on input line 514.
+Package pdftex.def Info: img/doubleDown.png used on input line 172.
 (pdftex.def)             Requested size: 252.0pt x 97.20465pt.
 
-<img/SplittingRules.png, id=13, 454.69875pt x 351.714pt>
+<img/SplittingRules.png, id=12, 454.69875pt x 351.714pt>
 File: img/SplittingRules.png Graphic file (type png)
 
 <use img/SplittingRules.png>
-Package pdftex.def Info: img/SplittingRules.png used on input line 519.
+Package pdftex.def Info: img/SplittingRules.png used on input line 177.
 (pdftex.def)             Requested size: 252.0pt x 194.92451pt.
- [2 <F:/Repositories/Onderzoekstechnieken/Onderzoekstechnieken/Latex bestand/im
-g/grafiek.jpg> <F:/Repositories/Onderzoekstechnieken/Onderzoekstechnieken/Latex
- bestand/img/ThorpeNormal.png> <F:/Repositories/Onderzoekstechnieken/Onderzoeks
-technieken/Latex bestand/img/doubleDown.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 529.
+(Font)              <8> on input line 184.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 529.
+(Font)              <6> on input line 184.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 529.
+(Font)              <5> on input line 184.
+ [2 <C:/Users/Pieter-Jan/Documents/HoGent/Onderzoekstechnieken/Project Onderzoe
+k/Onderzoekstechnieken/Latex bestand/img/ThorpeNormal.png> <C:/Users/Pieter-Jan
+/Documents/HoGent/Onderzoekstechnieken/Project Onderzoek/Onderzoekstechnieken/L
+atex bestand/img/doubleDown.png> <C:/Users/Pieter-Jan/Documents/HoGent/Onderzoe
+kstechnieken/Project Onderzoek/Onderzoekstechnieken/Latex bestand/img/Splitting
+Rules.png>]
+<img/grafiek.jpg, id=19, 701.62125pt x 567.11874pt>
+File: img/grafiek.jpg Graphic file (type jpg)
+ <use img/grafiek.jpg>
+Package pdftex.def Info: img/grafiek.jpg used on input line 217.
+(pdftex.def)             Requested size: 252.0pt x 203.68665pt.
 
-("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
-ag.bbl")
+("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
+nderzoekstechnieken\Latex bestand\Verslag.bbl")
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -480,28 +479,31 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <F:/Repositories/Onderzoekstechnieken/Onderzoekstechnieken/Latex bestand/img
-/SplittingRules.png>]
-("F:\Repositories\Onderzoekstechnieken\Onderzoekstechnieken\Latex bestand\Versl
-ag.aux") ) 
+[3 <C:/Users/Pieter-Jan/Documents/HoGent/Onderzoekstechnieken/Project Onderzoek
+/Onderzoekstechnieken/Latex bestand/img/grafiek.jpg>]
+("C:\Users\Pieter-Jan\Documents\HoGent\Onderzoekstechnieken\Project Onderzoek\O
+nderzoekstechnieken\Latex bestand\Verslag.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2587 strings out of 493921
- 39612 string characters out of 3144873
- 100201 words of memory out of 3000000
+ 2588 strings out of 493921
+ 40006 string characters out of 3144861
+ 102201 words of memory out of 3000000
  5878 multiletter control sequences out of 15000+200000
- 36554 words of font info for 70 fonts, out of 3000000 for 9000
+ 37690 words of font info for 71 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 27i,9n,28p,1124b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on Verslag.pdf (3 pages, 181805 bytes).
+ 27i,8n,28p,1232b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on Verslag.pdf (3 pages, 173129 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
